@@ -310,4 +310,4 @@ with gr.Blocks(css=css) as demo:
     
     gr.Markdown(article)
     
-demo.launch(share=True, auth=[("hunter1", "hunter2")], enable_queue=True, inbrowser=True)
+demo.launch(share=True, auth=("hunter1", "hunter2"), inbrowser=True)
